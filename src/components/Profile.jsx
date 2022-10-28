@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import pic from "../assets/pic.jpg";
+import pic from "../assets/pic.JPG";
 
 const Profile = () => {
   const [showSlack] = useState(false);

@@ -62,3 +62,26 @@ div.logos {
     margin: 0 2rem;
   }
 }
+
+// Footer section
+footer {
+  width: 80%;
+  margin: 6rem auto 2rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  & > p.footer_notes {
+    font-size: 1.4rem;
+    color: var(--grey-dark);
+  }
+  & > img:first-child {
+    display: inline-block;
+    width: 17rem;
+    height: 2.9rem;
+  }
+  & > img:last-child {
+    display: inline-block;
+    width: 13.6rem;
+    height: 3.3rem;
+  }
+}
