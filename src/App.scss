@@ -50,3 +50,15 @@ ul#links {
     }
   }
 }
+// Logo Section
+div.logos {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  & > img {
+    display: inline-block;
+    height: 4.5rem;
+    border-radius: 50%;
+    margin: 0 2rem;
+  }
+}
