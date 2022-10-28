@@ -1,5 +1,10 @@
 const linksData = [
   {
+    id: "btn__twitter",
+    link: "https://twitter.com/iamsonde",
+    text: "Twitter Link",
+  },
+  {
     id: "btn__zuri",
     link: "https://training.zuri.team/",
     text: "Zuri Team",
