@@ -8,4 +8,4 @@ An [HNGi9](https://internship.zuri.team/hngi9) frontend task.
 Built using React.js
 
 ## Deployment
-Link to live site: 
+Link to live site: https://linktree-hngi9.netlify.app/
