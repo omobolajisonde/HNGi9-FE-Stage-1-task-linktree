@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & > #profile__img {
+    display: inline-block;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+  }
+  & > #twitter {
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 1.75rem;
+  }
+}
