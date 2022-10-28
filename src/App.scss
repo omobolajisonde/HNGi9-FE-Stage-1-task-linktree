@@ -1,3 +1,4 @@
+// Profile section
 header {
   display: flex;
   flex-direction: column;
@@ -5,13 +6,47 @@ header {
 
   & > #profile__img {
     display: inline-block;
-    width: 15rem;
-    height: 15rem;
+    width: 10rem;
+    height: 10rem;
     border-radius: 50%;
   }
   & > #twitter {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     font-weight: 500;
-    font-size: 1.75rem;
+    font-size: 2rem;
+  }
+}
+
+// Link Section
+ul#links {
+  margin: 3rem auto;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  & > li {
+    width: 70%;
+    background-color: var(--grey-light);
+    border-radius: 5px;
+    box-shadow: 0 1px 3px 0.4px rgba(#000, 0.15);
+    text-align: center;
+    &:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+  }
+  & a {
+    display: block;
+    padding: 1rem;
+    &:link,
+    &:visited {
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.3s ease-out;
+    }
+    &:hover,
+    &:active {
+      scale: 1.1;
+      color: #000;
+    }
   }
 }

@@ -1,11 +1,11 @@
 import "./App.scss";
-import { Profile, Logos, Link, Footer } from "./components";
+import { Profile, Links, Logos, Footer } from "./components";
 
 function App() {
   return (
     <>
       <Profile />
-      <Link />
+      <Links />
       <Logos />
       <Footer />
     </>
