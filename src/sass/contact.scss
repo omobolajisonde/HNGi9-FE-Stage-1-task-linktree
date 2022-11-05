@@ -1,5 +1,14 @@
 .contact {
-  padding: 8rem 35rem 15rem 15rem;
+  padding: 8rem 30rem 15rem 20rem;
+  @media screen and (max-width: 75em) {
+    padding: 5rem 20rem 10rem 15rem;
+  }
+  @media screen and (max-width: 56.25em) {
+    padding: 3rem 10rem 6rem 8rem;
+  }
+  @media screen and (max-width: 37.5em) {
+    padding: 3rem 0rem 6rem 0rem;
+  }
   &__heading {
     font-weight: 500;
     font-size: 3rem;
@@ -16,18 +25,23 @@
   margin-top: 3.5rem;
   &__name {
     display: flex;
+    @media screen and (max-width: 37.5em) {
+      flex-direction: column;
+    }
     justify-content: space-between;
     & > * {
       flex-basis: 47%;
+      @media screen and (max-width: 37.5em) {
+        flex-basis: 100%;
+      }
     }
   }
 
   &__group {
     display: flex;
     flex-direction: column;
-    &:not(:last-child) {
-      margin-bottom: 2rem;
-    }
+    margin-bottom: 2rem;
+
     & > label {
       font-size: 1.4rem;
       margin-bottom: 5px;
