@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { RiShareForwardLine } from "react-icons/ri";
 
-import pic from "../assets/pic.jpg";
+import pic from "../../assets/pic.jpg";
 
 const Profile = () => {
   const [showSlack] = useState(false);

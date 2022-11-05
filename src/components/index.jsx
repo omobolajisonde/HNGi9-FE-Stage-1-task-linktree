@@ -1,4 +1,6 @@
-export { default as Profile } from "./Profile";
-export { default as Links } from "./Links";
-export { default as Logos } from "./Logos";
-export { default as Footer } from "./Footer";
+export { default as Profile } from "./home/Profile";
+export { default as Links } from "./home/Links";
+export { default as Logos } from "./home/Logos";
+export { default as Footer } from "./home/Footer";
+
+export { default as Form } from "./contact/Form";

@@ -1,6 +1,6 @@
 import React from "react";
-import slack from "../assets/slack.png";
-import github from "../assets/github.png";
+import slack from "../../assets/slack.png";
+import github from "../../assets/github.png";
 
 const Logos = () => {
   return (

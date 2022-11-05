@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import linksData from "../assets/linksdata";
+import linksData from "../../assets/linksdata";
 import LinkTag from "./Link";
 
 const Links = () => {

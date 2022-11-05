@@ -1,6 +1,6 @@
 import React from "react";
-import zi from "../assets/zurintenship.png";
-import i4g from "../assets/I4G.png";
+import zi from "../../assets/zurintenship.png";
+import i4g from "../../assets/I4G.png";
 
 const Footer = () => {
   return (
