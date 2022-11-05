@@ -3,6 +3,7 @@ const linksData = [
     id: "btn__twitter",
     link: "https://twitter.com/iamsonde",
     text: "Twitter Link",
+    blank: true,
   },
   {
     id: "btn__zuri",
@@ -10,12 +11,14 @@ const linksData = [
     text: "Zuri Training",
     title:
       "Gain knowledge to help you scale through the tech industry for free.",
+    blank: true,
   },
   {
     id: "books",
     link: "http://books.zuri.team/",
     text: "Zuri Books (Design and Coding)",
     title: "Your one-stop site for any book on design and coding.",
+    blank: true,
   },
   {
     id: "book__python",
@@ -23,6 +26,7 @@ const linksData = [
     text: "Python for beginners",
     title:
       "This python book will get you up and running with writing code using python in no time.",
+    blank: true,
   },
   {
     id: "pitch",
@@ -30,6 +34,7 @@ const linksData = [
     text: "Background checks for coders",
     title:
       "Learn about the good, bad, and downright scary online activities of coders.",
+    blank: true,
   },
   {
     id: "book__design",
@@ -37,6 +42,8 @@ const linksData = [
     text: "Design rules book",
     title:
       "The Design Rules Book offered by Zuri, gives you the tips & guidelines you need to create truly professional designs.",
+    blank: true,
   },
 ];
+
 export default linksData;

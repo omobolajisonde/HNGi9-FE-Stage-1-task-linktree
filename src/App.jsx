@@ -1,14 +1,14 @@
+import { Routes, Route } from "react-router-dom";
+
 import "./App.scss";
-import { Profile, Links, Logos, Footer } from "./components";
+import { Home, Contact } from "./pages";
 
 function App() {
   return (
-    <>
-      <Profile />
-      <Links />
-      <Logos />
-      <Footer />
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
   );
 }
 

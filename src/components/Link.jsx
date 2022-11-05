@@ -6,7 +6,8 @@ const Link = ({ data: linkData }) => {
       <a
         id={linkData.id}
         href={linkData.link}
-        target="blank"
+        target={linkData.blank ? "_blank" : undefined}
+        rel="noreferrer"
         title={linkData.title}
       >
         {linkData.text}
