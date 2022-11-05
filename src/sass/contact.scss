@@ -1,5 +1,5 @@
 .contact {
-  padding: 10rem;
+  padding: 8rem 35rem 15rem 15rem;
   &__heading {
     font-weight: 500;
     font-size: 3rem;
@@ -21,6 +21,7 @@
       flex-basis: 47%;
     }
   }
+
   &__group {
     display: flex;
     flex-direction: column;
@@ -35,6 +36,7 @@
     & > textarea {
       width: 100%;
       padding: 0.75rem;
+      margin-bottom: 5px;
       border-radius: 5px;
       border: var(--grey-light) 1px solid;
       background-color: var(--bg-color);
@@ -51,8 +53,44 @@
     & > textarea {
       resize: vertical;
     }
+    & > span {
+      color: var(--error);
+      font-size: 1.25rem;
+    }
   }
-  &__label {
-    font-size: 1.4rem;
+  &__group--error {
+    & > input,
+    & > textarea {
+      border: var(--error) 1px solid;
+      &:focus {
+        border: var(--error) 1px solid;
+      }
+    }
+  }
+  &__agreement {
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    & > input {
+      margin-right: 1rem;
+    }
+  }
+  &__agreement--error {
+    & > label {
+      color: var(--error);
+    }
+  }
+  &__cta {
+    margin-top: 3rem;
+    & > button {
+      background-color: #1570ef;
+      display: block;
+      width: 100%;
+      padding: 1rem;
+      border-radius: 5px;
+      border: none;
+      font: inherit;
+      color: #fff;
+    }
   }
 }
